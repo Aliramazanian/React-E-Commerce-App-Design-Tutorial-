@@ -1,3 +1,4 @@
+import { Slider } from '@mui/material'
 import React from 'react'
 import Announcement from '../components/Announcement'
 import NavBar from '../components/NavBar'
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
      <Announcement />
       <NavBar />
+      <Slider />
     </div>
   )
 }
